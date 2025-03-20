@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen a Pantalla Completa</title>
+    <style>
+        /* Eliminar márgenes y padding de la página */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        /* Estilo para el contenedor de la imagen */
+        .full-screen-image {
+            height: 100%;
+            width: 100%;
+            background-image: url('https://github.com/bidarmax/lgintime/blob/main/LGINTIME.JPG'); /* Cambia la ruta de la imagen */
+            background-size: cover;  /* Hace que la imagen cubra toda la pantalla */
+            background-position: center center; /* Centra la imagen */
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="full-screen-image"></div>
+
+</body>
+</html>
